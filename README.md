@@ -150,15 +150,10 @@ public class MainActivity extends AppCompatActivity
         });
     }
 }
-
 ## OUTPUT
-
 ![IMG-20240311-WA0011](https://github.com/VIKASHAR/GUI-components/assets/119405655/143a109e-ac38-498d-be7f-0e987a15f385)
-
 ![IMG-20240311-WA0017](https://github.com/VIKASHAR/GUI-components/assets/119405655/13f6786e-0612-492b-b455-4bc023b73012)
-
 ![IMG-20240311-WA0015](https://github.com/VIKASHAR/GUI-components/assets/119405655/62563b29-69ca-46fb-bc6a-713706fbfc99)
-
 ![IMG-20240311-WA0016](https://github.com/VIKASHAR/GUI-components/assets/119405655/bc2907fe-87c4-4827-8afe-1122708f1f77)
 
 
