@@ -80,70 +80,70 @@ Registeration Number :
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 ## In MainActivity.java
 
-package com.example.gui_component;
-import android.graphics.Color;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
-import com.example.gui_component.R;
-public class MainActivity extends AppCompatActivity
-{
-    int ch=1;
-    float font=30;
-    @Override
-    protected void onCreate(Bundle savedInstanceState)
+    package com.example.gui_component;
+    import android.graphics.Color;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.TextView;
+    import androidx.appcompat.app.AppCompatActivity;
+    import com.example.gui_component.R;
+    public class MainActivity extends AppCompatActivity
     {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        final TextView t= (TextView) findViewById(R.id.textView);
-        Button b1= (Button) findViewById(R.id.button1);
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                t.setTextSize(font);
-                font = font + 5;
-                if (font == 50)
-                    font = 30;
-            }
-        });
-        Button b2= (Button) findViewById(R.id.button2);
-        b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                switch (ch) {
-                    case 1:
-                        t.setTextColor(Color.RED);
-                        break;
-                    case 2:
-                        t.setTextColor(Color.GREEN);
-                        break;
-                    case 3:
-                        t.setTextColor(Color.BLUE);
-                        break;
-                    case 4:
-                        t.setTextColor(Color.CYAN);
-                        break;
-                    case 5:
-                        t.setTextColor(Color.YELLOW);
-                        break;
-                    case 6:
-                        t.setTextColor(Color.MAGENTA);
-                        break;
+        int ch=1;
+        float font=30;
+        @Override
+        protected void onCreate(Bundle savedInstanceState)
+        {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+    
+            final TextView t= (TextView) findViewById(R.id.textView);
+            Button b1= (Button) findViewById(R.id.button1);
+            b1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    t.setTextSize(font);
+                    font = font + 5;
+                    if (font == 50)
+                        font = 30;
                 }
-                ch++;
-                if (ch == 7)
-                    ch = 1;
-            }
-        });
+            });
+            Button b2= (Button) findViewById(R.id.button2);
+            b2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    switch (ch) {
+                        case 1:
+                            t.setTextColor(Color.RED);
+                            break;
+                        case 2:
+                            t.setTextColor(Color.GREEN);
+                            break;
+                        case 3:
+                            t.setTextColor(Color.BLUE);
+                            break;
+                        case 4:
+                            t.setTextColor(Color.CYAN);
+                            break;
+                        case 5:
+                            t.setTextColor(Color.YELLOW);
+                            break;
+                        case 6:
+                            t.setTextColor(Color.MAGENTA);
+                            break;
+                    }
+                    ch++;
+                    if (ch == 7)
+                        ch = 1;
+                }
+            });
+        }
     }
-}
 ## OUTPUT
 ![IMG-20240311-WA0011](https://github.com/VIKASHAR/GUI-components/assets/119405655/143a109e-ac38-498d-be7f-0e987a15f385)
 ![IMG-20240311-WA0017](https://github.com/VIKASHAR/GUI-components/assets/119405655/13f6786e-0612-492b-b455-4bc023b73012)
