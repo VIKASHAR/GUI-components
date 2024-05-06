@@ -80,24 +80,18 @@ Registeration Number :
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 ## In MainActivity.java
 
 package com.example.gui_component;
-
 import android.graphics.Color;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.gui_component.R;
-
 public class MainActivity extends AppCompatActivity
 {
     int ch=1;
