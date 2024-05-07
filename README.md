@@ -145,10 +145,11 @@ Registeration Number :212222040179
         }
     }
 ## OUTPUT
-![IMG-20240311-WA0011](https://github.com/VIKASHAR/GUI-components/assets/119405655/143a109e-ac38-498d-be7f-0e987a15f385)
-![IMG-20240311-WA0017](https://github.com/VIKASHAR/GUI-components/assets/119405655/13f6786e-0612-492b-b455-4bc023b73012)
-![IMG-20240311-WA0015](https://github.com/VIKASHAR/GUI-components/assets/119405655/62563b29-69ca-46fb-bc6a-713706fbfc99)
-![IMG-20240311-WA0016](https://github.com/VIKASHAR/GUI-components/assets/119405655/bc2907fe-87c4-4827-8afe-1122708f1f77)
+![Screenshot 2024-05-07 174708](https://github.com/VIKASHAR/GUI-components/assets/119405655/37c6f773-52ad-4a66-9ea5-87f9267c0555)
+![Screenshot 2024-05-07 174722](https://github.com/VIKASHAR/GUI-components/assets/119405655/40b54646-fb0e-499f-b70d-1549d4b990e6)
+![Screenshot 2024-05-07 174742](https://github.com/VIKASHAR/GUI-components/assets/119405655/5a44a5cd-8951-432d-aded-2cbee4d284b5)
+![Screenshot 2024-05-07 174759](https://github.com/VIKASHAR/GUI-components/assets/119405655/52e03114-c41f-48ea-83a9-269b2283628e)
+
 
 
 ## RESULT
